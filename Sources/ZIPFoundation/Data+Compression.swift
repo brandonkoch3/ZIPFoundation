@@ -95,7 +95,7 @@ extension Data {
 
 // MARK: - Apple Platforms
 
-#if os(macOS) || os(iOS) || os(tvOS) || os(visionOS) || os(watchOS)
+#if os(macOS) || os(iOS) || os(tvOS) || os(visionOS) || os(watchOS) || os(visionOS)
 import Compression
 
 extension Data {
